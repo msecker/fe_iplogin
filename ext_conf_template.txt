@@ -1,0 +1,10 @@
+
+	# cat=basic/enable; type=boolean; label=Always enable IP autologin: If option is checked the automatic login process takes places on every page hit. If this option is disabled you will need to send the GET/POST var &logintype=login to initiate an (automatic) login
+alwaysAutoLogin = 1
+
+  # cat=basic/enable; type=boolean,string; label=Check PID of FE user record: If value is empty matching users will be searched on every page, otherwise only users from the specified list of pages will be allowed
+checkPidList =
+
+	# cat=basic; type=boolean; label=Respect allow/deny: When this option is set the allow/deny settings (whitelist/blacklist) of the fe_ipauth extension will get taken into account. So if a user is not allowed to login because of a blacklist entry his login will be denied even if he is configured for automatic login.
+respectFEipauth = 1
+
