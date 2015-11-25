@@ -24,15 +24,16 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => 'fe_users,fe_groups',
 	'clearCacheOnLoad' => 1,
 	'lockType' => '',
-	'author' => 'Bernhard Kraft',
-	'author_email' => 'kraftb@think-open.at',
-	'author_company' => 'think-open',
+	'author' => 'Matthias Secker',
+	'author_email' => 'secker@alto.de',
+	'author_company' => 'alto.de New Media GmbH',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
-	'version' => '0.0.1',
+	'version' => '0.2.0',
 	'constraints' => array(
 		'depends' => array(
-			'fe_ipauth' => '0.0.1-0.0.0',
+			'fe_ipauth' => '0.2.0-0.0.0',
+			'typo3' => '6.2-7.6',
 		),
 		'conflicts' => array(
 		),

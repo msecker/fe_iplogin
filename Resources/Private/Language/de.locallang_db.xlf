@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-09-17T15:36:22Z" product-name="fe_iplogin">
+		<header/>
+		<body>
+			<trans-unit id="fe_users.tx_feiplogin_auto" xml:space="preserve">
+				<source>Auto login IPs</source>
+				<target>Auto Login IPs</target>
+			</trans-unit>
+			<trans-unit id="fe_users.tx_feiplogin_onlyauto" xml:space="preserve">
+				<source>Only auto login IPs</source>
+				<target>Nur Auto Login IPs</target>
+			</trans-unit>
+			<trans-unit id="fe_groups.tx_feiplogin_auto" xml:space="preserve">
+				<source>Auto enabled by IPs</source>
+				<target>Auto Aktivierung durch IPs</target>
+			</trans-unit>
+			<trans-unit id="fe_groups.tx_feiplogin_onlyauto" xml:space="preserve">
+				<source>Only enable by IPs</source>
+				<target>Nur aktiviert durch IPs</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
